@@ -1,0 +1,47 @@
+h1{
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+body {
+    background-color:rgb(249, 252, 249);
+    padding-left: 50;
+    padding-right:50;
+    padding-top: 50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#outerdiv{
+    display:flex;
+    flex-wrap: wrap;
+    height: 200px;
+    border: flex;
+    width: 200px;
+}
+#outerforecastdiv{
+    display:flex;
+    flex-wrap: wrap;
+    height: 300px;
+    border: flex;
+}
+.weather{
+    border: 1px solid;
+    border-color: rgb(39, 179, 4);
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+}
+#current_weather{
+    border: 3px solid;
+    border-radius: 25px;
+    border-color: rgb(17, 0, 255);
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+}
+.time_pad{
+    visibility: visible;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
